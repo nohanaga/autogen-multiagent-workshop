@@ -1,0 +1,32 @@
+version: '3'
+services:
+  elasticsearch:
+    image: docker.elastic.co/elasticsearch/elasticsearch:7.10.2
+    container_name: jaeger-elasticsearch
+    environment:
+      - discovery.type=single-node
+      - node.name=jaeger-node
+      - cluster.name=jaeger-cluster
+      - path.data=/usr/share/elasticsearch/data
+    ports:
+      - "9200:9200"
+    volumes:
+      - ./esdata:/usr/share/elasticsearch/data
+    restart: unless-stopped
+            
+  jaeger:
+    image: jaegertracing/all-in-one:1.68.0
+    container_name: jaeger
+    environment:
+      - SPAN_STORAGE_TYPE=elasticsearch
+      - ES_SERVER_URLS=http://elasticsearch:9200
+      - LOG_LEVEL=debug
+    ports:
+      - "16686:16686"
+      - "4317:4317"
+      - "4318:4318"
+      - "5778:5778"
+      - "9411:9411"
+    depends_on:
+      - elasticsearch
+    restart: unless-stopped

@@ -174,7 +174,7 @@ cython_debug/
 .pypirc
 .DS_Store
 
-jaeger/
+jaeger/esdata/
 
 # Playwright
 node_modules/
