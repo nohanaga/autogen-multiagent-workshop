@@ -185,6 +185,8 @@ AutoGen には、アプリケーションの実行に関する包括的な記録
 
 ```bash
 cd jaeger
+mkdir esdata
+sudo chown -R 1000:1000 ./esdata
 docker compose up -d
 ```
 
