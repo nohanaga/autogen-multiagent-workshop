@@ -15,7 +15,7 @@ cd autogen-multiagent-workshop
 
 ### 2. Install Python dependencies
 
-仮想環境の使用を推奨します。 
+仮想環境の使用を推奨します。 Python v3.11.x/3.12.x で動作を確認しています。
 
 ```bash 
 # MacOS 上で仮想環境の作成と起動 
@@ -29,7 +29,7 @@ python -m venv .venv
 ```
 ```sh
 # このファイルが格納されているフォルダーから依存関係をインストールします。
-pip install -r requirements.txt  
+pip install -r agentic_ai/autogen/requirements.txt
 ```
 
 #### Example `requirements.txt` includes:  
@@ -41,7 +41,7 @@ pip install -r requirements.txt
 - `openai`  
 - `flasgger`  
 - `fastmcp`  
-- `autogen-ext[magentic-one,mcp,openai,azure]`  
+- `autogen-ext[mcp,openai,azure]`  
 - `autogen-agentchat`  
 - `uvicorn`  
 - `fastapi`  
