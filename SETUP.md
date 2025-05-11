@@ -75,11 +75,11 @@ AZURE_OPENAI_ENDPOINT="https://your-openai-service-endpoint.openai.azure.com"
 AZURE_OPENAI_API_KEY="your-openai-api-key"
 
 #User to replace model name deployed in foundry if different from gpt-4o
-AZURE_OPENAI_CHAT_DEPLOYMENT="gpt-4o"
+AZURE_OPENAI_CHAT_DEPLOYMENT="gpt-4.1"
 
 #User to replace model version deployed in foundry if different from below
-AZURE_OPENAI_API_VERSION="2025-01-01-preview"
-OPENAI_MODEL_NAME="gpt-4.1-2025-04-14"
+AZURE_OPENAI_API_VERSION="2025-03-01-preview"
+OPENAI_MODEL_NAME="gpt-4.1"
 
 #User should not need to change the MCP and backend server URLs unless these are not available on your local environment
 BACKEND_URL="http://localhost:7000"
