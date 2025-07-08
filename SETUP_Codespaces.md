@@ -134,6 +134,30 @@ Jaeger ローカルサーバーの起動後、[http://localhost:16686](http://lo
 ![img](docs\img\004.png)
 
 ---  
+## Jupyter Notebook の設定
+VSCode のエクスプローラーから `agentic_ai/autogen/single_agent/loop_agent.ipynb` を開きます。最初の起動では Notebook で使用する Python 環境が設定されていませんので以下の手順で設定します。
+
+Notebook 右上の「カーネルの選択」をクリックします。
+
+![img](docs\img\008.png)
+
+「拡張機能の候補をインストールまたは有効にする Python + Jupyter」をクリックします。
+![img](docs\img\005.png)
+
+Jupyter 拡張がインストールされると、以下のように「Python 環境...」が選択できるようになります。
+
+![img](docs\img\006.png)
+
+Python 環境の一覧から、「Python 3.12.1」のデフォルト Python 環境を選択します。
+![img](docs\img\007.png)
+
+カーネル表示が「Python 3.12.1」になっていることを確認し、最初のセルで [Shift+Enter] をクリックして実行します。
+
+![img](docs\img\009.png)
+
+`True` と表示されれば完了です。
+
+---  
 ## Run application(お土産)
 ```agentic_ai/applications```
 
