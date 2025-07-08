@@ -107,7 +107,7 @@ python mcp_service.py
 
 MCP サーバーが正常に起動したら、コンソール右上の「＋」ボタンを押下することで新しいターミナルを起動することができます。
 
-![img](docs\img\002.png)
+![img](docs/img/002.png)
 
 ---  
 ## Tracing and Observability
@@ -127,11 +127,11 @@ docker compose up -d
 
 Jaeger ローカルサーバーの起動後、[http://localhost:16686](http://localhost:16686) にアクセスして Jaeger UI を開きます。以下のように「ポート」タブをクリックし、ポート `16686` の転送されたアドレスの「🌐」アイコンをクリックしてブラウザを起動します。
 
-![img](docs\img\003.png)
+![img](docs/img/003.png)
 
 このように Jaeger UI が表示されれば完了です。
 
-![img](docs\img\004.png)
+![img](docs/img/004.png)
 
 ---  
 ## Jupyter Notebook の設定
@@ -139,21 +139,21 @@ VSCode のエクスプローラーから `agentic_ai/autogen/single_agent/loop_a
 
 Notebook 右上の「カーネルの選択」をクリックします。
 
-![img](docs\img\008.png)
+![img](docs/img/008.png)
 
 「拡張機能の候補をインストールまたは有効にする Python + Jupyter」をクリックします。
-![img](docs\img\005.png)
+![img](docs/img/005.png)
 
 Jupyter 拡張がインストールされると、以下のように「Python 環境...」が選択できるようになります。
 
-![img](docs\img\006.png)
+![img](docs/img/006.png)
 
 Python 環境の一覧から、「Python 3.12.1」のデフォルト Python 環境を選択します。
-![img](docs\img\007.png)
+![img](docs/img/007.png)
 
 カーネル表示が「Python 3.12.1」になっていることを確認し、最初のセルで [Shift+Enter] をクリックして実行します。
 
-![img](docs\img\009.png)
+![img](docs/img/009.png)
 
 `True` と表示されれば完了です。
 
