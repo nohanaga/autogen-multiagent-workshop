@@ -1,4 +1,4 @@
-# AutoGen Multi-Agent Workshop 
+# AutoGen Multi-Agent Workshop for GitHub Codespaces
   
 AutoGen Multi-Agent Workshop の公式リポジトリへようこそ！このリポジトリでは、Microsoft の先進的な AI 技術を活用して、エージェントベースの AI ソリューションを調査、プロトタイピング、比較するための必要なリソース、コード、ドキュメントをすべて提供しています。 
 
@@ -33,7 +33,7 @@ AutoGen Multi-Agent Workshop の公式リポジトリへようこそ！このリ
   
 ## Getting Started  
   
-環境要件と手順ごとのインストール手順を確認するには、[セットアップ手順](./SETUP.md) を参照してください。 
+環境要件と手順ごとのインストール手順を確認するには、[セットアップ手順](./SETUP.md) を参照してください。 GitHub Codespages を使用される方は[こちら](./SETUP_Codespaces.md)。
 
 ---  
   
