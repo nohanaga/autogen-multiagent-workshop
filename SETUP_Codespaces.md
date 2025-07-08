@@ -1,4 +1,4 @@
-# AutoGen Multi-Agent Workshop Setup
+# AutoGen Multi-Agent Workshop Setup for GitHub Codespaces
 
 このワークショップでは AutoGen を用いて AI エージェントを設計し、実行する方法について説明します。
 
