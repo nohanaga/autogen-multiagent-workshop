@@ -9,8 +9,8 @@ flasgger
 pyarrow
 streamlit
 uvicorn
-autogen-agentchat==0.5.6
-autogen-ext[azure,mcp,openai]==0.5.6
+autogen-agentchat==0.6.2
+autogen-ext[azure,mcp,openai]==0.6.2
 opentelemetry-api
 opentelemetry-sdk
 opentelemetry-exporter-otlp
