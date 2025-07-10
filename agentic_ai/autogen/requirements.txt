@@ -20,3 +20,4 @@ pymongo
 asyncpg
 requests
 json_schema_to_pydantic
+graphviz
